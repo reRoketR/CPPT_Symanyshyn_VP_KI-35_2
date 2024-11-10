@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI305.Symanyshyn.Lab4","l":"ExpressionCalculator"}];updateSearchResults();
