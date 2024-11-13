@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
-  *
+  * 
   * @author Volodymyr Symanyshyn
   * @version 1.0
   */
@@ -34,7 +34,6 @@ import java.util.Scanner;
  
          String[][] arr = createLengthForSubArr(row);
          String fileName = "Lab1.txt";
-         sc.close();
          try(sc) {
              printMatrix(arr, symbol, row, fileName);
          } catch (IOException e) {
