@@ -37,7 +37,7 @@ public class ExpressionCalculator {
         }
     }
     
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         ExpressionCalculator calculator = new ExpressionCalculator();
         double x = 4.0;  // Example input
         
@@ -51,5 +51,5 @@ public class ExpressionCalculator {
         } catch (IOException e) {
             System.err.println("File error: " + e.getMessage());
         }
-    }
+    }*/
 }
