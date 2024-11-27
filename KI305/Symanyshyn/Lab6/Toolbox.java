@@ -25,7 +25,7 @@ public class Toolbox<T extends Tool> {
      */
     public void addTool(T tool) {
         tools.add(tool);
-        System.out.println("Інструмент додано: " + tool.getName());
+        System.out.println("Instrument added: " + tool.getName());
     }
 
     /**
@@ -35,10 +35,10 @@ public class Toolbox<T extends Tool> {
      */
     public void removeTool(int index) {
         if (index >= 0 && index < tools.size()) {
-            System.out.println("Інструмент видалено: " + tools.get(index).getName());
+            System.out.println("Instrument deleted: " + tools.get(index).getName());
             tools.remove(index);
         } else {
-            System.out.println("Некоректний індекс.");
+            System.out.println("Wrong index.");
         }
     }
 
@@ -52,7 +52,7 @@ public class Toolbox<T extends Tool> {
         if (index >= 0 && index < tools.size()) {
             return tools.get(index);
         }
-        System.out.println("Некоректний індекс.");
+        System.out.println("Wrong index.");
         return null;
     }
 

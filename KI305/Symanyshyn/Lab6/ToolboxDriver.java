@@ -5,14 +5,14 @@ public class ToolboxDriver {
         Toolbox<Tool> toolbox = new Toolbox<>();
 
         // Додавання інструментів
-        toolbox.addTool(new Hammer("Молоток", 1500));
-        toolbox.addTool(new Screwdriver("Викрутка", 300));
-        toolbox.addTool(new Hammer("Маленький молоток", 800));
+        toolbox.addTool(new Hammer("Hammer", 1500));
+        toolbox.addTool(new Screwdriver("Screwdriver", 300));
+        toolbox.addTool(new Hammer("Small hammer", 800));
 
         // Виведення інструменту з найменшою характеристикою
         Tool minTool = toolbox.findMin();
         if (minTool != null) {
-            System.out.println("Інструмент з найменшою характеристикою: " + minTool.getName());
+            System.out.println("Min instrument: " + minTool.getName());
         }
 
         // Видалення інструменту
